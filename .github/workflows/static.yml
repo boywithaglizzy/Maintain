@@ -42,8 +42,7 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v3
            
-            
-            - name: Cache
+            - name:cache
   uses: actions/cache@v3.3.2
   with:
     # A list of files, directories, and wildcard patterns to cache and restore
